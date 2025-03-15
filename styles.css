@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .card {
+    background-color: #303030;
+    width: 320px;
+    border-radius: 16px;
+    padding: 25px;
+  
+    gap: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cabeza h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .cabeza p {
+    color: #b3b3b3;
+    font-size: 18px;
+  }
+  
+  .Arriba {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .icono img {
+    width: 24px;
+    border-radius: 50%;
+    float: right;
+  }
+  
+  .descripcion {
+    display: flex;
+    gap: 17px;
+  }
+  
+  .porcentaje {
+    color: #30925a;
+    font-size: 14px;
+  }
+  
+  .info {
+    color: #908d8d;
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  
+  .porcentaje::before {
+    margin-right: 4px;
+  }
+  .imagen {
+    background-color: rgb(216, 197, 163);
+    width: 70px;
+    height: 70px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+  }
+  img {
+    width: 40px;
+  }
